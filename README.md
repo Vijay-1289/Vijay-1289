@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-[![MasterHead](https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22Screenshot%202025-03-13%20204547.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-03-12T15%3A16%3A32.594Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F577089e4d6c04c93%2FScreenshot%25202025-03-13%2520204547.png%3FExpires%3D1836486993%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DvtbzoRlRvhMLg8~bmaRHeaKpxe3HsqqkAhTdM~XNrESjW-uV2yxOBwRo8k7W7rkXFxgEQKD3AMGuiuP2xV5GJ0nv0qgQrzmBXQRw8~E6~PHiMCxBst5s6EsauIHaOBUH~JjchQMSF4K10yNJFP0dW1TGp4ZqNKUzu1P-xXojUt7IAD6EVOLNVS6dKmP2rhcPXdKEg39B4AOHJIyC4-Z4VnCA41040-fiOZ~gs-xG-HGv4OJhDeibBnvdEloVIFkw23AoyND1CK9Ur6KV5OZMnu81jXYiIskTATVgBQndL6UVCkpXxbN9MswfRxayU~FOylmaBpBk8mWFEtwlFXudTQ__%22%7D)](https://github.com/Vijay-1289)
+[![MasterHead]![Screenshot 2025-03-13 204547.png](<https://media-hosting.imagekit.io//577089e4d6c04c93/Screenshot 2025-03-13 204547.png?Expires=1836486993&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=vtbzoRlRvhMLg8~bmaRHeaKpxe3HsqqkAhTdM~XNrESjW-uV2yxOBwRo8k7W7rkXFxgEQKD3AMGuiuP2xV5GJ0nv0qgQrzmBXQRw8~E6~PHiMCxBst5s6EsauIHaOBUH~JjchQMSF4K10yNJFP0dW1TGp4ZqNKUzu1P-xXojUt7IAD6EVOLNVS6dKmP2rhcPXdKEg39B4AOHJIyC4-Z4VnCA41040-fiOZ~gs-xG-HGv4OJhDeibBnvdEloVIFkw23AoyND1CK9Ur6KV5OZMnu81jXYiIskTATVgBQndL6UVCkpXxbN9MswfRxayU~FOylmaBpBk8mWFEtwlFXudTQ__>)(https://github.com/Vijay-1289)
 
 ## 🔭 I’m currently working on
 - Exciting AI and ML projects
