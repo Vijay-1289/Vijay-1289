@@ -55,8 +55,8 @@ Here are some of my notable projects:
 
 ![Vijay's GitHub stats](https://github-readme-stats.vercel.app/api?username=Vijay-1289&show_icons=true&theme=radical)
 
-## 
+## Stars Pinned
 ![Vijay's Stars](https://github-profile-trophy.vercel.app/?username=Vijay-1289&theme=dracula)
----
 
+---
 *“Keep learning, keep building!”* 🚀
