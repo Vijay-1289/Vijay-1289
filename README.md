@@ -55,7 +55,5 @@ Here are some of my notable projects:
 ## 📈 GitHub Stats
 ![Vijay's GitHub stats](https://github-readme-stats.vercel.app/api?username=Vijay-1289&show_icons=true&theme=radical)
 
-<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
-
 ---
 *“Keep learning, keep building!”* 🚀
