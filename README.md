@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://glimpse-of-my-world.netlify.app/">
-    <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/Screenshot%202025-05-25%20095219.png" alt="Screenshot" width="600"/>
+    <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/Portfolio.png" alt="Screenshot" width="600"/>
   </a>
 </p>
 
