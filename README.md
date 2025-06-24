@@ -1,23 +1,23 @@
-
-
-###
-
-[![[Screenshot 2025-05-25 095219.png](https://github.com/Vijay-1289/Vijay-1289/blob/ef6f5b3563d6de447a98001579544b88ba230e10/Screenshot%202025-05-25%20095219.png)](<https://media-hosting.imagekit.io//577089e4d6c04c93/Screenshot 2025-03-13 204547.png?Expires=1836486993&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=vtbzoRlRvhMLg8~bmaRHeaKpxe3HsqqkAhTdM~XNrESjW-uV2yxOBwRo8k7W7rkXFxgEQKD3AMGuiuP2xV5GJ0nv0qgQrzmBXQRw8~E6~PHiMCxBst5s6EsauIHaOBUH~JjchQMSF4K10yNJFP0dW1TGp4ZqNKUzu1P-xXojUt7IAD6EVOLNVS6dKmP2rhcPXdKEg39B4AOHJIyC4-Z4VnCA41040-fiOZ~gs-xG-HGv4OJhDeibBnvdEloVIFkw23AoyND1CK9Ur6KV5OZMnu81jXYiIskTATVgBQndL6UVCkpXxbN9MswfRxayU~FOylmaBpBk8mWFEtwlFXudTQ__>)](https://glimpse-of-my-world.netlify.app/)
+<p align="center">
+  <a href="https://glimpse-of-my-world.netlify.app/">
+    <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/Screenshot%202025-05-25%20095219.png" alt="Screenshot" width="600"/>
+  </a>
+</p>
 
 ## 🔭 I’m currently working on
-- Exciting AI and ML projects
+- Exciting AI and ML projects  
 - Expanding my knowledge in Data Science
 
 ## 🌱 I’m currently learning
-- Deep Learning and Neural Networks
+- Deep Learning and Neural Networks  
 - Advanced Python and Machine Learning Techniques
 
 ## 👯 I’m looking to collaborate on
-- Open-source AI projects
+- Open-source AI projects  
 - Innovative Machine Learning applications
 
 ## 💬 Ask me about
-- Python, Machine Learning, Data Science
+- Python, Machine Learning, Data Science  
 - AI and Deep Learning
 
 ## 📫 How to reach me
@@ -58,4 +58,5 @@ Here are some of my notable projects:
 ![Vijay's GitHub stats](https://github-readme-stats.vercel.app/api?username=Vijay-1289&show_icons=true&theme=radical)
 
 ---
+
 *“Keep learning, keep building!”* 🚀
