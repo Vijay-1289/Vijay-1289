@@ -4,37 +4,9 @@
   </a>
 </p>
 
-<!-- ✨ Animated Typing in Handwritten Font with SVG -->
+<!-- ✨ Handwritten Typing Animation -->
 <p align="center">
-  <svg width="100%" height="400" viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-      .text {
-        font-family: 'Satisfy', cursive;
-        font-size: 30px;
-        stroke: #FF69B4;
-        fill: none;
-        stroke-width: 1.2;
-        stroke-dasharray: 1000;
-        stroke-dashoffset: 1000;
-        animation: draw 3s ease forwards;
-      }
-      .text:nth-of-type(2) { animation-delay: 1.5s; }
-      .text:nth-of-type(3) { animation-delay: 3s; }
-      .text:nth-of-type(4) { animation-delay: 4.5s; }
-      .text:nth-of-type(5) { animation-delay: 6s; }
-      @keyframes draw {
-        to {
-          stroke-dashoffset: 0;
-        }
-      }
-      </style>
-      <text x="50" y="60" class="text">🔥 AI Enthusiast </text>
-      <text x="50" y="120" class="text">🤖 Machine Learning Explorer </text>
-      <text x="50" y="180" class="text">🐍 Python Developer </text>
-      <text x="50" y="240" class="text">📊 Data Science Lover </text>
-      <text x="50" y="300" class="text">⚛️ Quantum Curious </text>
-  </svg>
+  <img src="https://readme-typing-svg.demolab.com/?font=Satisfy&size=30&pause=1000&color=FF69B4&vCenter=true&width=900&lines=🔥+AI+Enthusiast;🤖+Machine+Learning+Explorer;🐍+Python+Developer;📊+Data+Science+Lover;⚛️+Quantum+Curious" alt="Typing SVG" />
 </p>
 
 ---
