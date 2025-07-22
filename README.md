@@ -23,18 +23,17 @@
       .text:nth-of-type(3) { animation-delay: 3s; }
       .text:nth-of-type(4) { animation-delay: 4.5s; }
       .text:nth-of-type(5) { animation-delay: 6s; }
-
-  @keyframes draw {
+      @keyframes draw {
         to {
           stroke-dashoffset: 0;
         }
       }
-    </style>
-    <text x="50" y="60" class="text">🔥 AI Enthusiast </text>
-    <text x="50" y="120" class="text">🤖 Machine Learning Explorer </text>
-    <text x="50" y="180" class="text">🐍 Python Developer </text>
-    <text x="50" y="240" class="text">📊 Data Science Lover </text>
-    <text x="50" y="300" class="text">⚛️ Quantum Curious </text>
+      </style>
+      <text x="50" y="60" class="text">🔥 AI Enthusiast </text>
+      <text x="50" y="120" class="text">🤖 Machine Learning Explorer </text>
+      <text x="50" y="180" class="text">🐍 Python Developer </text>
+      <text x="50" y="240" class="text">📊 Data Science Lover </text>
+      <text x="50" y="300" class="text">⚛️ Quantum Curious </text>
   </svg>
 </p>
 
