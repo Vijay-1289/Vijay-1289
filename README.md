@@ -4,8 +4,19 @@
   </a>
 </p>
 
+<!-- ✍️ Animated SVG line-draw header -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&width=700&height=60&lines=🔥+AI+Enthusiast+on+Fire!;🤖+Machine+Learning+Explorer+Unleashed;🐍+Python+Developer+Slithering+Solutions;📊+Data+Science+Lover+Crunching+Numbers;⚛️+Quantum+Curious+Breaking+Boundaries" alt="Typing SVG" />
+<svg width="600" height="60" viewBox="0 0 600 60" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:8px;">
+  <path d="M20,30 H580" stroke="#F75C7E" stroke-width="4" stroke-linecap="round"
+        stroke-dasharray="560" stroke-dashoffset="560">
+    <animate attributeName="stroke-dashoffset" from="560" to="0"
+             dur="1.5s" fill="freeze" />
+  </path>
+</svg>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=800&color=F75C7E&center=true&vCenter=true&width=700&height=60&lines=🔥+AI+Enthusiast+on+Fire!;🤖+Machine+Learning+Explorer+Unleashed;🐍+Python+Developer+Slithering+Solutions;📊+Data+Science+Lover+Crunching+Numbers;⚛️+Quantum+Curious+Breaking+Boundaries" alt="Typing SVG" />
 </p>
 
 ---
@@ -68,19 +79,9 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📈 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vijay-1289&show_icons=true&theme=radical" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Vijay-1289&theme=radical&date_format=M%20j%5B%2C%20Y%5D" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vijay-1289&layout=compact&theme=radical" />
-</p>
+![Vijay's GitHub stats](https://github-readme-stats.vercel.app/api?username=Vijay-1289&show_icons=true&theme=radical)
 
 ---
 
