@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Rock+Salt&weight=900&size=30&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=🔥+AI+Enthusiast;🤖+Machine+Learning+Explorer;🐍+Python+Developer;📊+Data+Science+Lover" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&width=700&height=60&lines=🔥+AI+Enthusiast+on+Fire!;🤖+Machine+Learning+Explorer+Unleashed;🐍+Python+Developer+Slithering+Solutions;📊+Data+Science+Lover+Crunching+Numbers;⚛️+Quantum+Curious+Breaking+Boundaries" alt="Typing SVG" />
 </p>
 
 ---
@@ -52,25 +52,19 @@
 
 ## 🚀 Projects
 
-### 🔬 Smart Heal  
-> AI-powered health assistant that predicts diseases based on symptoms  
-📌 GitHub: [AI-Health](https://github.com/Vijay-1289/AI-Health)
-
-**Tech Used**:  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![ML](https://img.shields.io/badge/Machine%20Learning-FFD43B?style=flat-square&logo=scikit-learn&logoColor=black)
+### 🩺 Smart Heal | Python + Streamlit + AI  
+- Developed an AI-powered health assistant using Streamlit that predicts diseases based on user symptoms using machine learning  
+- Demonstrated end-to-end pipeline including data preprocessing, model training, and interactive UI integration  
+- A practical and intuitive project that showcases applied data science in the healthcare domain  
+🔗 [GitHub Repo](https://github.com/Vijay-1289/AI-Health)
 
 ---
 
-### ⚛️ Quantum Warrior  
-> Quantum-themed game to learn quantum logic with fun  
-📌 GitHub: [Quantum-Warrior](https://github.com/Vijay-1289/Quantum-Warrior)
-
-**Tech Used**:  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=flat-square&logo=qiskit&logoColor=white)
-![Quantum](https://img.shields.io/badge/Quantum-Computing-0069FF?style=flat-square)
+### ⚛️ Quantum Warrior | Qiskit + Python  
+- Designed an interactive quantum-themed game leveraging Qiskit, simulating quantum principles in a gamified environment  
+- Implemented basic quantum gates and measurement logic to introduce players to foundational quantum computing concepts  
+- A creative and educational project bridging quantum mechanics with game development for intuitive learning  
+🔗 [GitHub Repo](https://github.com/Vijay-1289/Quantum-Warrior)
 
 ---
 
