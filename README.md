@@ -4,16 +4,8 @@
   </a>
 </p>
 
-<h3 align="center">
-  Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> I'm Vijay!
-</h3>
-
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=AI+Enthusiast;Machine+Learning+Explorer;Python+Developer;Data+Science+Lover" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Vijay-1289&label=Profile%20views&color=0e75b6&style=flat" alt="Vijay-1289" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Rock+Salt&weight=900&size=30&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=🔥+AI+Enthusiast;🤖+Machine+Learning+Explorer;🐍+Python+Developer;📊+Data+Science+Lover" alt="Typing SVG" />
 </p>
 
 ---
@@ -60,17 +52,37 @@
 
 ## 🚀 Projects
 
-Here are some of my notable projects:
+### 🔬 Smart Heal  
+> AI-powered health assistant that predicts diseases based on symptoms
 
-1. **Ping-Pong Game using Pygame**  
-   *A classic ping-pong game developed using the Pygame library in Python.*  
-   [View Repository](https://github.com/Vijay-1289/Ping-Pong-Game-using-pygame)
+<p align="center">
+  <a href="https://github.com/Vijay-1289/AI-Health">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vijay-1289&repo=AI-Health&theme=radical" alt="Smart Heal"/>
+  </a>
+</p>
 
-2. **Search Engine**  
-   *A simple search engine implemented using HTML.*  
-   [View Repository](https://github.com/Vijay-1289/Search-Engine)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-FFD43B?style=flat-square&logo=scikit-learn&logoColor=black"/>
+</p>
 
-*More exciting projects coming soon!*
+---
+
+### ⚛️ Quantum Warrior  
+> Quantum-themed game to learn quantum logic with fun
+
+<p align="center">
+  <a href="https://github.com/Vijay-1289/Quantum-Warrior">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vijay-1289&repo=Quantum-Warrior&theme=radical" alt="Quantum Warrior"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Qiskit-6929C4?style=flat-square&logo=qiskit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Quantum-Computing-0069FF?style=flat-square"/>
+</p>
 
 ---
 
