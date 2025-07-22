@@ -53,36 +53,24 @@
 ## 🚀 Projects
 
 ### 🔬 Smart Heal  
-> AI-powered health assistant that predicts diseases based on symptoms
+> AI-powered health assistant that predicts diseases based on symptoms  
+📌 GitHub: [AI-Health](https://github.com/Vijay-1289/AI-Health)
 
-<p align="center">
-  <a href="https://github.com/Vijay-1289/AI-Health">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vijay-1289&repo=AI-Health&theme=radical" alt="Smart Heal"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Machine%20Learning-FFD43B?style=flat-square&logo=scikit-learn&logoColor=black"/>
-</p>
+**Tech Used**:  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![ML](https://img.shields.io/badge/Machine%20Learning-FFD43B?style=flat-square&logo=scikit-learn&logoColor=black)
 
 ---
 
 ### ⚛️ Quantum Warrior  
-> Quantum-themed game to learn quantum logic with fun
+> Quantum-themed game to learn quantum logic with fun  
+📌 GitHub: [Quantum-Warrior](https://github.com/Vijay-1289/Quantum-Warrior)
 
-<p align="center">
-  <a href="https://github.com/Vijay-1289/Quantum-Warrior">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vijay-1289&repo=Quantum-Warrior&theme=radical" alt="Quantum Warrior"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Qiskit-6929C4?style=flat-square&logo=qiskit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Quantum-Computing-0069FF?style=flat-square"/>
-</p>
+**Tech Used**:  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=flat-square&logo=qiskit&logoColor=white)
+![Quantum](https://img.shields.io/badge/Quantum-Computing-0069FF?style=flat-square)
 
 ---
 
@@ -98,14 +86,6 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vijay-1289&layout=compact&theme=radical" />
-</p>
-
----
-
-## 🧠 GitHub Activity Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Vijay-1289&bg_color=0d1117&color=ffffff&line=ff6f91&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" />
 </p>
 
 ---
