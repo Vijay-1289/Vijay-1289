@@ -4,6 +4,20 @@
   </a>
 </p>
 
+<h3 align="center">
+  Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> I'm Vijay!
+</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=AI+Enthusiast;Machine+Learning+Explorer;Python+Developer;Data+Science+Lover" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Vijay-1289&label=Profile%20views&color=0e75b6&style=flat" alt="Vijay-1289" />
+</p>
+
+---
+
 ## 🔭 I’m currently working on
 - Exciting AI and ML projects  
 - Expanding my knowledge in Data Science
@@ -26,6 +40,8 @@
 ## ⚡ Fun fact
 - I love solving complex data problems and building real-world AI applications!
 
+---
+
 ## 🛠️ Tech Stack
 
 - **Languages**:  
@@ -39,6 +55,8 @@
   ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)  
   ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)  
   ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+
+---
 
 ## 🚀 Projects
 
@@ -54,9 +72,44 @@ Here are some of my notable projects:
 
 *More exciting projects coming soon!*
 
-## 📈 GitHub Stats
-![Vijay's GitHub stats](https://github-readme-stats.vercel.app/api?username=Vijay-1289&show_icons=true&theme=radical)
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Vijay-1289&show_icons=true&theme=radical" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Vijay-1289&theme=radical&date_format=M%20j%5B%2C%20Y%5D" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vijay-1289&layout=compact&theme=radical" />
+</p>
 
 ---
 
-*“Keep learning, keep building!”* 🚀
+## 🧠 GitHub Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Vijay-1289&bg_color=0d1117&color=ffffff&line=ff6f91&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" />
+</p>
+
+---
+
+## 💡 Dev Quote of the Day
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212721374-c8f75e3b-54f5-46ec-8450-0386d92fd255.gif" width="700"/>
+</p>
+
+<p align="center">
+  <b>“Keep learning, keep building!”</b> 🚀
+</p>
