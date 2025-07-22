@@ -4,19 +4,8 @@
   </a>
 </p>
 
-<!-- ✍️ Animated SVG line-draw header -->
 <p align="center">
-<svg width="600" height="60" viewBox="0 0 600 60" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:8px;">
-  <path d="M20,30 H580" stroke="#F75C7E" stroke-width="4" stroke-linecap="round"
-        stroke-dasharray="560" stroke-dashoffset="560">
-    <animate attributeName="stroke-dashoffset" from="560" to="0"
-             dur="1.5s" fill="freeze" />
-  </path>
-</svg>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=800&color=F75C7E&center=true&vCenter=true&width=700&height=60&lines=🔥+AI+Enthusiast+on+Fire!;🤖+Machine+Learning+Explorer+Unleashed;🐍+Python+Developer+Slithering+Solutions;📊+Data+Science+Lover+Crunching+Numbers;⚛️+Quantum+Curious+Breaking+Boundaries" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Rock+Salt&weight=900&size=30&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=🔥+AI+Enthusiast;🤖+Machine+Learning+Explorer;🐍+Python+Developer;📊+Data+Science+Lover" alt="Typing SVG" />
 </p>
 
 ---
