@@ -4,10 +4,36 @@
   </a>
 </p>
 
+<!-- ✨ Neon Handwritten Style Headings -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Satisfy&size=30&pause=1000&color=FF69B4&vCenter=true&width=900&lines=🔥+AI+Enthusiast;🤖+Machine+Learning+Explorer;🐍+Python+Developer;📊+Data+Science+Lover;⚛️+Quantum+Curious" alt="Typing SVG" />
+  <span style="font-family: 'Satisfy', cursive; font-size: 40px; color: #ff69b4; text-shadow: 2px 2px 4px #000000, 0 0 10px #ff69b4, 0 0 20px #ff69b4;">
+    🔥 AI Enthusiast
+  </span>
 </p>
 
+<p align="center">
+  <span style="font-family: 'Satisfy', cursive; font-size: 40px; color: #00e6e6; text-shadow: 2px 2px 4px #000000, 0 0 10px #00e6e6, 0 0 20px #00e6e6;">
+    🤖 Machine Learning Explorer
+  </span>
+</p>
+
+<p align="center">
+  <span style="font-family: 'Satisfy', cursive; font-size: 40px; color: #ffa500; text-shadow: 2px 2px 4px #000000, 0 0 10px #ffa500, 0 0 20px #ffa500;">
+    🐍 Python Developer
+  </span>
+</p>
+
+<p align="center">
+  <span style="font-family: 'Satisfy', cursive; font-size: 40px; color: #ff66cc; text-shadow: 2px 2px 4px #000000, 0 0 10px #ff66cc, 0 0 20px #ff66cc;">
+    📊 Data Science Lover
+  </span>
+</p>
+
+<p align="center">
+  <span style="font-family: 'Satisfy', cursive; font-size: 40px; color: #7fff00; text-shadow: 2px 2px 4px #000000, 0 0 10px #7fff00, 0 0 20px #7fff00;">
+    ⚛️ Quantum Curious
+  </span>
+</p>
 
 ---
 
