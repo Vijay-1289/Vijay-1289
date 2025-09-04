@@ -85,13 +85,13 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Vijay-1289/output/dark.svg"
+    srcset="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/output/dark.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Vijay-1289/output/light.svg"
+    srcset="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/output/light.svg"
   />
-  <img alt="GitHub Breakout Game" src="https://raw.githubusercontent.com/Vijay-1289/output/light.svg" />
+  <img alt="GitHub Breakout Game" src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/output/light.svg" />
 </picture>
 
 ---
@@ -111,5 +111,3 @@
 <p align="center">
   <b>“Keep learning, keep building!”</b> 🚀
 </p>
-
-
