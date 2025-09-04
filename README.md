@@ -78,10 +78,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vijay-1289&layout=compact&theme=radical" />
 </p>
 
----
-
-## 🎮 GitHub Breakout Game
-
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -111,3 +107,4 @@
 <p align="center">
   <b>“Keep learning, keep building!”</b> 🚀
 </p>
+
