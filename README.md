@@ -78,18 +78,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vijay-1289&layout=compact&theme=radical" />
 </p>
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/output/dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/output/light.svg"
-  />
-  <img alt="GitHub Breakout Game" src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/output/light.svg" />
-</picture>
-
 ---
 
 ## 💡 Dev Quote of the Day
@@ -104,7 +92,24 @@
   <img src="https://user-images.githubusercontent.com/74038190/212721374-c8f75e3b-54f5-46ec-8450-0386d92fd255.gif" width="700"/>
 </p>
 
+---
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/output/dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/output/light.svg"
+  />
+  <img alt="GitHub Breakout Game" src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/output/light.svg" />
+</picture>
+
+---
+
 <p align="center">
   <b>“Keep learning, keep building!”</b> 🚀
 </p>
+
 
