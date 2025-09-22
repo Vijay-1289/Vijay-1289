@@ -53,52 +53,59 @@
       { jp: ["⚛️", "量子コンピュータに興味"], en: ["⚛️", "Quantum", "Curious"] }
     ];
 
-    const morphBox = document.getElementById("morph-box");
+    const morphBox = document.getElementById("morph-box
     let index = 0;
 
+    const delay = ms => new Promise(res => setTimeout(res, ms));
+
     function createWord(jpText, enText) {
-      const wrapper = document.createElement("span");
-      wrapper.classList.add("word");
+      const wrapper = document.createElement("span
+      wrapper.classList.add("word
 
-      const jpSpan = document.createElement("span");
+      const jpSpan = document.createElement("span
       jpSpan.textContent = jpText;
-      jpSpan.classList.add("jp");
+      jpSpan.classList.add("jp
 
-      const enSpan = document.createElement("span");
+      const enSpan = document.createElement("span
       enSpan.textContent = enText || "";
-      enSpan.classList.add("en");
+      enSpan.classList.add("en
 
       wrapper.append(jpSpan, enSpan);
       return wrapper;
     }
 
-    function showPhrase() {
+    async function showPhrase() {
       morphBox.innerHTML = "";
       const { jp, en } = phrases[index];
 
-      // Step 1: Show JP words one by one
-      jp.forEach((word, i) => {
+      // Step 1: show JP words sequentially
+      const wrappers = jp.map((word, i) => {
         const wrapper = createWord(word, en[i]);
         morphBox.appendChild(wrapper);
-        setTimeout(() => wrapper.querySelector(".jp").classList.add("show"), i * 300);
+        return wrapper;
       });
 
-      // Step 2: Morph JP → EN word by word
-      setTimeout(() => {
-        const wrappers = morphBox.querySelectorAll(".word");
-        wrappers.forEach((wrapper, i) => {
-          const jpSpan = wrapper.querySelector(".jp");
-          const enSpan = wrapper.querySelector(".en");
-          setTimeout(() => {
-            jpSpan.classList.remove("show");
-            enSpan.classList.add("show");
-          }, i * 500);
-        });
-      }, 2000);
+      for (let i = 0; i < wrappers.length; i++) {
+        wrappers[i].querySelector(".jp").classList.add("show
+        await delay(300);
+      }
 
-      // Step 3: Loop to next phrase
+      // Pause before morph
+      await delay(1000);
+
+      // Step 2: morph JP → EN sequentially
+      for (let i = 0; i < wrappers.length; i++) {
+        const jpSpan = wrappers[i].querySelector(".jp
+        const enSpan = wrappers[i].querySelector(".en
+        jpSpan.classList.remove("show
+        enSpan.classList.add("show
+        await delay(500);
+      }
+
+      // Step 3: wait, then show next phrase
       index = (index + 1) % phrases.length;
-      setTimeout(showPhrase, 5000);
+      await delay(1500);
+      showPhrase();
     }
 
     showPhrase();
@@ -210,6 +217,7 @@
 <p align="center">
   <b>“Keep learning, keep building!”</b> 🚀
 </p>
+
 
 
 
