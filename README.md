@@ -6,7 +6,7 @@
 
 <p align="center">
   <!-- Typing Effect (JP → EN) -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1200&color=F75C7E&center=true&vCenter=true&width=950&height=60&lines=🔥+AI愛好家+→+AI+Enthusiast;🤖+機械学習探検家+→+Machine+Learning+Explorer;🐍+パイソン開発者+→+Python+Developer;📊+データサイエンス愛好家+→+Data+Science+Lover;⚛️+量子コンピュータに興味+→+Quantum+Curious" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1200&color=F75C7E&center=true&vCenter=true&width=950&height=60&lines=🔥+AI+Enthusiast;🤖+Machine+Learning+Explorer;🐍+Python+Developer;📊+Data+Science+Lover;⚛️+Quantum+Curious" alt="Typing SVG" />
 </p>
 
 ---
@@ -104,3 +104,4 @@
 <p align="center">
   <b>“Keep learning, keep building!”</b> 🚀
 </p>
+
