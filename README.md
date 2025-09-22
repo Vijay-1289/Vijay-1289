@@ -3,10 +3,109 @@
     <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/Portoflio.png" alt="Screenshot" width="1000"/>
   </a>
 </p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #0d1117;
+      color: #fff;
+      font-family: 'Fira Code', monospace;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    #morph-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      text-align: center;
+    }
+    .word {
+      position: relative;
+      min-width: 60px;
+      text-align: center;
+    }
+    .jp, .en {
+      position: absolute;
+      left: 0; right: 0;
+      opacity: 0;
+      transition: opacity 0.8s ease;
+    }
+    .show {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="morph-box"></div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1200&color=F75C7E&center=true&vCenter=true&width=950&height=60&lines=🔥+AI愛好家+→+AI+Enthusiast;🤖+機械学習探検家+→+Machine+Learning+Explorer;🐍+パイソン開発者+→+Python+Developer;📊+データサイエンス愛好家+→+Data+Science+Lover;⚛️+量子コンピュータに興味+→+Quantum+Curious" alt="Typing SVG" />
-</p>
+  <script>
+    const phrases = [
+      { jp: ["🔥", "AI愛好家"], en: ["🔥", "AI Enthusiast"] },
+      { jp: ["🤖", "機械学習探検家"], en: ["🤖", "Machine", "Learning", "Explorer"] },
+      { jp: ["🐍", "パイソン開発者"], en: ["🐍", "Python", "Developer"] },
+      { jp: ["📊", "データサイエンス愛好家"], en: ["📊", "Data", "Science", "Lover"] },
+      { jp: ["⚛️", "量子コンピュータに興味"], en: ["⚛️", "Quantum", "Curious"] }
+    ];
+
+    const morphBox = document.getElementById("morph-box");
+    let index = 0;
+
+    function createWord(jpText, enText) {
+      const wrapper = document.createElement("span");
+      wrapper.classList.add("word");
+
+      const jpSpan = document.createElement("span");
+      jpSpan.textContent = jpText;
+      jpSpan.classList.add("jp");
+
+      const enSpan = document.createElement("span");
+      enSpan.textContent = enText || "";
+      enSpan.classList.add("en");
+
+      wrapper.append(jpSpan, enSpan);
+      return wrapper;
+    }
+
+    function showPhrase() {
+      morphBox.innerHTML = "";
+      const { jp, en } = phrases[index];
+
+      // Step 1: Show JP words one by one
+      jp.forEach((word, i) => {
+        const wrapper = createWord(word, en[i]);
+        morphBox.appendChild(wrapper);
+        setTimeout(() => wrapper.querySelector(".jp").classList.add("show"), i * 300);
+      });
+
+      // Step 2: Morph JP → EN word by word
+      setTimeout(() => {
+        const wrappers = morphBox.querySelectorAll(".word");
+        wrappers.forEach((wrapper, i) => {
+          const jpSpan = wrapper.querySelector(".jp");
+          const enSpan = wrapper.querySelector(".en");
+          setTimeout(() => {
+            jpSpan.classList.remove("show");
+            enSpan.classList.add("show");
+          }, i * 500);
+        });
+      }, 2000);
+
+      // Step 3: Loop to next phrase
+      index = (index + 1) % phrases.length;
+      setTimeout(showPhrase, 5000);
+    }
+
+    showPhrase();
+  </script>
+</body>
+</html>
+
 
 ---
 
@@ -111,6 +210,7 @@
 <p align="center">
   <b>“Keep learning, keep building!”</b> 🚀
 </p>
+
 
 
 
