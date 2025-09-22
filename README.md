@@ -3,10 +3,12 @@
     <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/Portoflio.png" alt="Screenshot" width="1000"/>
   </a>
 </p>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JP → EN Morph</title>
   <style>
     body {
       display: flex;
@@ -22,94 +24,75 @@
     #morph-box {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 16px;
       text-align: center;
     }
     .word {
       position: relative;
-      min-width: 60px;
-      text-align: center;
+      min-width: 120px;
+      height: 2.5rem;
     }
     .jp, .en {
       position: absolute;
-      left: 0; right: 0;
+      left: 0;
+      right: 0;
       opacity: 0;
-      transition: opacity 0.8s ease;
     }
-    .show {
-      opacity: 1;
+
+    /* JP first, then EN */
+    .jp {
+      animation: fadeJP 6s infinite;
     }
+    .en {
+      animation: fadeEN 6s infinite;
+    }
+
+    @keyframes fadeJP {
+      0%   { opacity: 0; }
+      5%   { opacity: 1; }
+      45%  { opacity: 1; }
+      55%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes fadeEN {
+      0%   { opacity: 0; }
+      45%  { opacity: 0; }
+      55%  { opacity: 1; }
+      95%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    /* Delay each pair so words morph one after another */
+    .word:nth-child(1) .jp, .word:nth-child(1) .en { animation-delay: 0s; }
+    .word:nth-child(2) .jp, .word:nth-child(2) .en { animation-delay: 1s; }
+    .word:nth-child(3) .jp, .word:nth-child(3) .en { animation-delay: 2s; }
+    .word:nth-child(4) .jp, .word:nth-child(4) .en { animation-delay: 3s; }
+    .word:nth-child(5) .jp, .word:nth-child(5) .en { animation-delay: 4s; }
   </style>
 </head>
 <body>
-  <div id="morph-box"></div>
-
-  <script>
-    const phrases = [
-      { jp: ["🔥", "AI愛好家"], en: ["🔥", "AI Enthusiast"] },
-      { jp: ["🤖", "機械学習探検家"], en: ["🤖", "Machine", "Learning", "Explorer"] },
-      { jp: ["🐍", "パイソン開発者"], en: ["🐍", "Python", "Developer"] },
-      { jp: ["📊", "データサイエンス愛好家"], en: ["📊", "Data", "Science", "Lover"] },
-      { jp: ["⚛️", "量子コンピュータに興味"], en: ["⚛️", "Quantum", "Curious"] }
-    ];
-
-    const morphBox = document.getElementById("morph-box
-    let index = 0;
-
-    const delay = ms => new Promise(res => setTimeout(res, ms));
-
-    function createWord(jpText, enText) {
-      const wrapper = document.createElement("span
-      wrapper.classList.add("word
-
-      const jpSpan = document.createElement("span
-      jpSpan.textContent = jpText;
-      jpSpan.classList.add("jp
-
-      const enSpan = document.createElement("span
-      enSpan.textContent = enText || "";
-      enSpan.classList.add("en
-
-      wrapper.append(jpSpan, enSpan);
-      return wrapper;
-    }
-
-    async function showPhrase() {
-      morphBox.innerHTML = "";
-      const { jp, en } = phrases[index];
-
-      // Step 1: show JP words sequentially
-      const wrappers = jp.map((word, i) => {
-        const wrapper = createWord(word, en[i]);
-        morphBox.appendChild(wrapper);
-        return wrapper;
-      });
-
-      for (let i = 0; i < wrappers.length; i++) {
-        wrappers[i].querySelector(".jp").classList.add("show
-        await delay(300);
-      }
-
-      // Pause before morph
-      await delay(1000);
-
-      // Step 2: morph JP → EN sequentially
-      for (let i = 0; i < wrappers.length; i++) {
-        const jpSpan = wrappers[i].querySelector(".jp
-        const enSpan = wrappers[i].querySelector(".en
-        jpSpan.classList.remove("show
-        enSpan.classList.add("show
-        await delay(500);
-      }
-
-      // Step 3: wait, then show next phrase
-      index = (index + 1) % phrases.length;
-      await delay(1500);
-      showPhrase();
-    }
-
-    showPhrase();
-  </script>
+  <div id="morph-box">
+    <span class="word">
+      <span class="jp">🔥 AI愛好家</span>
+      <span class="en">🔥 AI Enthusiast</span>
+    </span>
+    <span class="word">
+      <span class="jp">🤖 機械学習探検家</span>
+      <span class="en">🤖 Machine Learning Explorer</span>
+    </span>
+    <span class="word">
+      <span class="jp">🐍 パイソン開発者</span>
+      <span class="en">🐍 Python Developer</span>
+    </span>
+    <span class="word">
+      <span class="jp">📊 データサイエンス愛好家</span>
+      <span class="en">📊 Data Science Lover</span>
+    </span>
+    <span class="word">
+      <span class="jp">⚛️ 量子コンピュータに興味</span>
+      <span class="en">⚛️ Quantum Curious</span>
+    </span>
+  </div>
 </body>
 </html>
 
@@ -217,6 +200,7 @@
 <p align="center">
   <b>“Keep learning, keep building!”</b> 🚀
 </p>
+
 
 
 
