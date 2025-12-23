@@ -4,8 +4,29 @@
   </a>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/src/jp_en_timeline.svg" width="1000"/>
+  <img src="https://readme-typing-svg.demolab.com?
+font=Fira+Code
+&size=32
+&duration=3000
+&pause=800
+&color=F1FA8C
+&center=true
+&vCenter=true
+&width=900
+&lines=
+エーアイエンスージアスト;
+AI+Enthusiast;
+マシンラーニングエクスプローラー;
+Machine+Learning+Explorer;
+パイソンデベロッパー;
+Python+Developer;
+データサイエンスラバー;
+Data+Science+Lover;
+クアンタム・キュリアス;
+Quantum+Curious
+" />
 </p>
+
 
 ---
 
@@ -104,4 +125,5 @@
 <p align="center">
   <b>“Keep learning, keep building!”</b> 🚀
 </p>
+
 
