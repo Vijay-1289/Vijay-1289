@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img" aria-label="Python Developer animation">
+  <style>
+    .kat { font: 40px 'Noto Sans JP', sans-serif; fill:#9be7ff; opacity:1; }
+    .scr { font: 38px monospace; fill:#fff; opacity:0; letter-spacing:6px; }
+    .eng { font: 36px 'Inter', sans-serif; fill:#a8ffbd; opacity:0; }
+  </style>
+
+  <text x="30" y="50" class="kat">パイソンデベロッパー
+    <animate attributeName="opacity" values="1;1;0" dur="2.5s" begin="0s" fill="freeze"/>
+  </text>
+
+  <text x="30" y="50" class="scr"><tspan>ﾊ@ｲ$ｿ</tspan><animate attributeName="opacity" values="0;1;0" dur="0.12s" begin="1.00s" fill="freeze"/></text>
+  <text x="30" y="50" class="scr"><tspan>ﾝ%ﾃﾞ^ﾍ</tspan><animate attributeName="opacity" values="0;1;0" dur="0.12s" begin="1.12s" fill="freeze"/></text>
+  <text x="30" y="50" class="scr"><tspan>ﾛ&ｯﾊ*ﾟ</tspan><animate attributeName="opacity" values="0;1;0" dur="0.12s" begin="1.24s" fill="freeze"/></text>
+  <text x="30" y="50" class="scr"><tspan>ｳ(ﾊ)ｰ</tspan><animate attributeName="opacity" values="0;1;0" dur="0.12s" begin="1.36s" fill="freeze"/></text>
+
+  <text x="30" y="95" class="eng">
+    <tspan opacity="0">P</tspan><tspan opacity="0">y</tspan><tspan opacity="0">t</tspan><tspan opacity="0">h</tspan><tspan opacity="0">o</tspan><tspan opacity="0">n</tspan>
+    <tspan opacity="0"> </tspan>
+    <tspan opacity="0">D</tspan><tspan opacity="0">e</tspan><tspan opacity="0">v</tspan><tspan opacity="0">e</tspan><tspan opacity="0">l</tspan><tspan opacity="0">o</tspan><tspan opacity="0">p</tspan><tspan opacity="0">e</tspan><tspan opacity="0">r</tspan>
+
+    <animate attributeName="opacity" values="0;1" begin="2.7s" dur="0.01s" additive="sum" />
+    <animate attributeName="opacity" values="0;1" begin="2.78s" dur="0.01s" additive="sum" />
+    <animate attributeName="opacity" values="0;1" begin="2.86s" dur="0.01s" additive="sum" />
+    <!-- continue as above -->
+  </text>
+</svg>
