@@ -3,28 +3,8 @@
     <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/Portoflio.png" alt="Screenshot" width="1000"/>
   </a>
 </p>
-
 <p align="center">
-  <!-- JP → EN Animated Timeline (Custom SVGs) -->
-
-  <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/src/ai_enthusiast.svg" width="900" />
-
-  <br/>
-
-  <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/src/machine_learning_explorer.svg" width="900" />
-
-  <br/>
-
-  <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/src/python_developer.svg" width="900" />
-
-  <br/>
-
-  <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/src/data_science_lover.svg" width="900" />
-
-  <br/>
-
-  <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/src/quantum_curious.svg" width="900" />
-
+  <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/src/jp_en_timeline.svg" width="1000"/>
 </p>
 
 ---
@@ -124,3 +104,4 @@
 <p align="center">
   <b>“Keep learning, keep building!”</b> 🚀
 </p>
+
