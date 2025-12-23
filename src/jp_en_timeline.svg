@@ -1,62 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="90" viewBox="0 0 1100 90">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="80" viewBox="0 0 1100 80">
   <style>
-    .text {
-      font: 36px 'Fira Code', monospace;
+    text {
+      font-family: "Fira Code", monospace;
+      font-size: 36px;
       fill: #f1fa8c;
       text-anchor: middle;
       dominant-baseline: middle;
     }
   </style>
 
-  <!-- MAIN TEXT (single line only) -->
-  <text x="50%" y="50%" class="text">
+  <text x="50%" y="50%">
     エーアイエンスージアスト|
 
-    <!-- AI Enthusiast -->
-    <animate attributeName="textContent"
-      dur="24s"
+    <animate
+      attributeName="textContent"
+      dur="5s"
       repeatCount="indefinite"
       values="
 エーアイエンスージアスト|;
-@#￥%&*|;
+@@@@#####|;
 AI Enthusiast|;
 マシンラーニングエクスプローラー|;
-$%#@!*|;
+%%%%&&&&|;
 Machine Learning Explorer|;
 パイソンデベロッパー|;
-!@#$%|;
+****####|;
 Python Developer|;
 データサイエンスラバー|;
-%$#@!|;
+$$$$@@@@|;
 Data Science Lover|;
 クォンタムキュリアス|;
-#@$%!|;
+!!!!%%%%|;
 Quantum Curious|;
 "
       keyTimes="
 0;
-0.07;
-0.14;
-0.28;
-0.35;
-0.42;
-0.56;
-0.63;
-0.70;
-0.80;
-0.86;
-0.92;
+0.06;
+0.12;
+0.24;
+0.30;
+0.36;
+0.48;
+0.54;
+0.60;
+0.72;
+0.78;
+0.84;
+0.96;
 1
 "/>
   </text>
-
-  <!-- BLINKING CURSOR EFFECT -->
-  <text x="50%" y="50%" class="text">
-    |
-    <animate attributeName="opacity"
-      values="1;0;1"
-      dur="1s"
-      repeatCount="indefinite"/>
-  </text>
-
 </svg>
