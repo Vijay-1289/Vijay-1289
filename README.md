@@ -5,8 +5,8 @@
 </p>
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&size=32&duration=3000&pause=1200&color=F1FA8C&center=true&vCenter=true&width=900&repeat=true&cursor=true&lines=%E3%82%A8%E3%83%BC%E3%82%A2%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E3%83%BC%E3%82%B8%E3%82%A2%E3%82%B9%E3%83%88;AI%20Enthusiast;%E3%83%9E%E3%82%B7%E3%83%B3%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC;Machine%20Learning%20Explorer;%E3%83%91%E3%82%A4%E3%82%BD%E3%83%B3%E3%83%87%E3%83%99%E3%83%AD%E3%83%83%E3%83%91%E3%83%BC;Python%20Developer;%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%A9%E3%83%90%E3%83%BC;Data%20Science%20Lover;%E3%82%AF%E3%82%A2%E3%83%B3%E3%82%BF%E3%83%A0%E3%83%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%82%A2%E3%82%B9;Quantum%20Curious"
-    alt="Typing roles: Japanese then English — AI Enthusiast, Machine Learning Explorer, Python Developer, Data Science Lover, Quantum Curious"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=32&duration=3000&pause=1200&color=00FF00&center=true&vCenter=true&width=900&repeat=true&lines=%E3%82%A8%E3%83%BC%E3%82%A2%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E3%83%BC%E3%82%B8%E3%82%A2%E3%82%B9%E3%83%88%20%7C;AI%20Enthusiast%20%7C;%E3%83%9E%E3%82%B7%E3%83%B3%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC%20%7C;Machine%20Learning%20Explorer%20%7C;%E3%83%91%E3%82%A4%E3%82%BD%E3%83%B3%E3%83%87%E3%83%99%E3%83%AD%E3%83%83%E3%83%91%E3%83%BC%20%7C;Python%20Developer%20%7C;%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%A9%E3%83%90%E3%83%BC%20%7C;Data%20Science%20Lover%20%7C;%E3%82%AF%E3%82%A2%E3%83%B3%E3%82%BF%E3%83%A0%E3%83%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%82%A2%E3%82%B9%20%7C;Quantum%20Curious%20%7C"
+    alt="Typing roles: Japanese then English with cursor — AI Enthusiast, Machine Learning Explorer, Python Developer, Data Science Lover, Quantum Curious"
   />
 </p>
 
@@ -108,6 +108,7 @@
 <p align="center">
   <b>“Keep learning, keep building!”</b> 🚀
 </p>
+
 
 
 
