@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 120" width="980" height="120" role="img" aria-label="Data Science Lover animation">
+  <style>
+    .kat { font: 36px 'Noto Sans JP', sans-serif; fill:#cbd6ff; opacity:1; }
+    .scr { font: 34px monospace; fill:#fff; opacity:0; letter-spacing:6px; }
+    .eng { font: 32px 'Inter', sans-serif; fill:#ffb3b3; opacity:0; }
+  </style>
+
+  <text x="30" y="50" class="kat">データサイエンスラバー
+    <animate attributeName="opacity" values="1;1;0" dur="2.5s" begin="0s" fill="freeze"/>
+  </text>
+
+  <text x="30" y="50" class="scr"><tspan>ﾃ!ﾞｰﾀ#ｻ</tspan><animate attributeName="opacity" values="0;1;0" dur="0.12s" begin="1.00s" fill="freeze"/></text>
+  <text x="30" y="50" class="scr"><tspan>ｲ$ｴﾝ%ｽ</tspan><animate attributeName="opacity" values="0;1;0" dur="0.12s" begin="1.12s" fill="freeze"/></text>
+  <text x="30" y="50" class="scr"><tspan>ﾗ&ﾊﾞ*ｰ</tspan><animate attributeName="opacity" values="0;1;0" dur="0.12s" begin="1.24s" fill="freeze"/></text>
+
+  <text x="30" y="95" class="eng">
+    <tspan opacity="0">D</tspan><tspan opacity="0">a</tspan><tspan opacity="0">t</tspan><tspan opacity="0">a</tspan><tspan opacity="0"> </tspan>
+    <tspan opacity="0">S</tspan><tspan opacity="0">c</tspan><tspan opacity="0">i</tspan><tspan opacity="0">e</tspan><tspan opacity="0">n</tspan><tspan opacity="0">c</tspan><tspan opacity="0">e</tspan>
+    <tspan opacity="0"> </tspan>
+    <tspan opacity="0">L</tspan><tspan opacity="0">o</tspan><tspan opacity="0">v</tspan><tspan opacity="0">e</tspan><tspan opacity="0">r</tspan>
+
+    <animate attributeName="opacity" values="0;1" begin="2.7s" dur="0.01s" additive="sum" />
+    <!-- extra animations per letter follow same pattern -->
+  </text>
+</svg>
