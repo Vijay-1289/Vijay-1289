@@ -1,6 +1,227 @@
 <p align="center">
   <a href="https://glimpse-of-my-world.netlify.app/">
-    <img src="https://raw.githubusercontent.com/Vijay-1289/Vijay-1289/main/Portoflio.png" alt="Screenshot" width="1000"/>
+    <svg width="100%" height="100%" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Vijay Rama Raju - Digital Alchemist">
+      <style>
+        :root{
+          --bg:#FFFFFF; --panel:#F8FAFC; --panel-glass:rgba(248,250,252,0.62);
+          --text:#0F172A; --text-dim:#475569; --border:rgba(15,23,42,0.12);
+          --accent1:#2563EB; --accent2:#06B6D4; --accent3:#10B981; --shadow:rgba(15,23,42,0.08);
+        }
+        @media (prefers-color-scheme: dark){
+          :root{
+            --bg:#030712; --panel:#0F172A; --panel-glass:rgba(15,23,42,0.55);
+            --text:#E7ECF3; --text-dim:#94A3B8; --border:rgba(255,255,255,0.09); --shadow:rgba(0,0,0,0.5);
+            --accent1:#7C3AED; --accent2:#22D3EE; --accent3:#10B981;
+          }
+        }
+        text{ font-family: 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+        .sans{ font-family:'Segoe UI',system-ui,-apple-system,sans-serif; }
+      </style>
+
+      <defs>
+        <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:var(--accent1)"/>
+          <stop offset="50%" style="stop-color:var(--accent2)"/>
+          <stop offset="100%" style="stop-color:var(--accent3)"/>
+          <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite"/>
+          <animate attributeName="x2" values="100%;200%;100%" dur="6s" repeatCount="indefinite"/>
+        </linearGradient>
+
+        <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:var(--accent2)"/>
+          <stop offset="50%" style="stop-color:var(--accent1)"/>
+          <stop offset="100%" style="stop-color:var(--accent3)"/>
+          <animate attributeName="y1" values="0%;100%;0%" dur="7s" repeatCount="indefinite"/>
+          <animate attributeName="y2" values="100%;200%;100%" dur="7s" repeatCount="indefinite"/>
+        </linearGradient>
+
+        <linearGradient id="shimmerGrad" x1="-20%" y1="0%" x2="0%" y2="0%">
+          <stop offset="0%" stop-color="var(--accent1)" stop-opacity="0"/>
+          <stop offset="50%" stop-color="var(--accent2)" stop-opacity="0.9"/>
+          <stop offset="100%" stop-color="var(--accent3)" stop-opacity="0"/>
+          <animate attributeName="x1" values="-20%;120%;-20%" dur="5s" repeatCount="indefinite"/>
+          <animate attributeName="x2" values="0%;140%;0%" dur="5s" repeatCount="indefinite"/>
+        </linearGradient>
+
+        <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:var(--accent1)"/>
+          <stop offset="100%" style="stop-color:var(--accent2)"/>
+        </linearGradient>
+
+        <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="var(--accent2)" stop-opacity="0"/>
+          <stop offset="50%" stop-color="var(--accent2)" stop-opacity="0.55"/>
+          <stop offset="100%" stop-color="var(--accent2)" stop-opacity="0"/>
+        </linearGradient>
+
+        <radialGradient id="blob1" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="var(--accent1)" stop-opacity="0.35"/>
+          <stop offset="100%" stop-color="var(--accent1)" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="blob2" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="var(--accent3)" stop-opacity="0.3"/>
+          <stop offset="100%" stop-color="var(--accent3)" stop-opacity="0"/>
+        </radialGradient>
+
+        <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="28"/>
+        </filter>
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="4" result="b"/>
+          <feMerge>
+            <feMergeNode in="b"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+
+        <clipPath id="typeClip1"><rect x="545" y="128" width="0" height="30"><animate attributeName="width" keyTimes="0;0.0976;0.2012;0.25;1" values="0;600;600;0;0" dur="16.4s" repeatCount="indefinite"/></rect></clipPath>
+        <clipPath id="typeClip2"><rect x="545" y="128" width="0" height="30"><animate attributeName="width" keyTimes="0;0.25;0.3476;0.4512;0.5;1" values="0;0;600;600;0;0" dur="16.4s" repeatCount="indefinite"/></rect></clipPath>
+        <clipPath id="typeClip3"><rect x="545" y="128" width="0" height="30"><animate attributeName="width" keyTimes="0;0.5;0.5976;0.7012;0.75;1" values="0;0;600;600;0;0" dur="16.4s" repeatCount="indefinite"/></rect></clipPath>
+        <clipPath id="typeClip4"><rect x="545" y="128" width="0" height="30"><animate attributeName="width" keyTimes="0;0.75;0.8476;0.9512;1" values="0;0;600;600;0" dur="16.4s" repeatCount="indefinite"/></rect></clipPath>
+      </defs>
+
+      <!-- BASE BACKGROUND -->
+      <rect x="0" y="0" width="1180" height="610" fill="var(--bg)"/>
+      <circle cx="150" cy="80" r="220" fill="url(#blob1)" filter="url(#softBlur)">
+        <animateTransform attributeName="transform" type="translate" values="0,0;20,15;0,0" dur="10s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1050" cy="540" r="240" fill="url(#blob2)" filter="url(#softBlur)">
+        <animateTransform attributeName="transform" type="translate" values="0,0;-15,-20;0,0" dur="11s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- OUTER SHIMMER BORDER -->
+      <rect x="4" y="4" width="1172" height="602" rx="26" fill="none" stroke="url(#shimmerGrad)" stroke-width="2"/>
+      <rect x="2" y="2" width="1176" height="606" rx="27" fill="none" stroke="var(--border)" stroke-width="1"/>
+
+      <!-- ================= LEFT PANEL : ASCII PORTRAIT ================= -->
+      <g>
+        <rect x="20" y="20" width="440" height="570" rx="20" fill="var(--panel-glass)" stroke="var(--border)" stroke-width="1"/>
+        <rect x="20" y="20" width="440" height="570" rx="20" fill="none" stroke="url(#shimmerGrad)" stroke-width="1.4" opacity="0.6"/>
+
+        <g fill="url(#asciiGrad)" text-anchor="middle" style="letter-spacing:1px">
+          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0; 0,6; 0,0" keyTimes="0;0.25;0.5;0.75;1" dur="6s" repeatCount="indefinite" additive="sum"/>
+
+          <text x="240" y="95"  font-size="13.5">          .:=+*#%#*+=:.          <animate attributeName="opacity" from="0" to="1" begin="0.0s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="112.5" font-size="13.5">       .=#%%%%%%%%%%%%#=.        <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="130" font-size="13.5">      .+%%%%%%%%%%%%%%%%%+.      <animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="147.5" font-size="13.5">    =%%%%%##########%%%%%=     <animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="165" font-size="13.5">   +%%%%#               #%%%%+   <animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="182.5" font-size="13.5">  =%%%%#    O      O    #%%%%=  <animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="200" font-size="13.5">  #%%%%#                #%%%%#  <animate attributeName="opacity" from="0" to="1" begin="0.90s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="217.5" font-size="13.5">  #%%%%#      /--\      #%%%%#  <animate attributeName="opacity" from="0" to="1" begin="1.05s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="235" font-size="13.5">  =%%%%#     |    |     #%%%%=  <animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="252.5" font-size="13.5">   +%%%%#    \--/    #%%%%+   <animate attributeName="opacity" from="0" to="1" begin="1.35s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="270" font-size="13.5">    =%%%%#          #%%%%=     <animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="287.5" font-size="13.5">     +%%%%%##----##%%%%%+      <animate attributeName="opacity" from="0" to="1" begin="1.65s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="305" font-size="13.5">      .+%%%%%%%%%%%%%%+.       <animate attributeName="opacity" from="0" to="1" begin="1.80s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="322.5" font-size="13.5">        .=#%%%%%%%%#=.         <animate attributeName="opacity" from="0" to="1" begin="1.95s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="340" font-size="13.5">            :+#%%%#+:            <animate attributeName="opacity" from="0" to="1" begin="2.10s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="357.5" font-size="13.5">          .-=*#%%%#*=-.          <animate attributeName="opacity" from="0" to="1" begin="2.25s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="375" font-size="13.5">        .:*%%%%%%%%%%*:.       <animate attributeName="opacity" from="0" to="1" begin="2.40s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="392.5" font-size="13.5">      ---==*%%%%%%%%*==---       <animate attributeName="opacity" from="0" to="1" begin="2.55s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="410" font-size="12">    [ AGENTIC.ALCHEMIST ]       <animate attributeName="opacity" from="0" to="1" begin="2.70s" dur="0.4s" fill="freeze"/></text>
+          <text x="240" y="427" font-size="12">   ( QUANTUM x FULLSTACK )      <animate attributeName="opacity" from="0" to="1" begin="2.85s" dur="0.4s" fill="freeze"/></text>
+        </g>
+
+        <!-- scanline -->
+        <rect x="40" y="88" width="380" height="3" fill="url(#scanGrad)" opacity="0.7">
+          <animate attributeName="y" values="88;430;88" dur="4s" repeatCount="indefinite"/>
+        </rect>
+
+        <!-- name block -->
+        <text x="240" y="472" text-anchor="middle" font-size="22" font-weight="700" fill="url(#nameGrad)">VIJAY RAMA RAJU</text>
+        <text x="240" y="498" text-anchor="middle" font-size="12.5" style="letter-spacing:3px" fill="var(--accent2)">DIGITAL ALCHEMIST</text>
+        <rect x="170" y="518" width="140" height="1" fill="var(--border)"/>
+        <text x="240" y="548" text-anchor="middle" font-size="11" fill="var(--text-dim)">&#9670; Nuzividu, Andhra Pradesh, India</text>
+      </g>
+
+      <!-- ================= RIGHT PANEL : TERMINAL ================= -->
+      <g>
+        <rect x="480" y="20" width="680" height="570" rx="20" fill="var(--panel-glass)" stroke="var(--border)" stroke-width="1"/>
+        <rect x="480" y="20" width="680" height="570" rx="20" fill="none" stroke="url(#shimmerGrad)" stroke-width="1.4" opacity="0.6"/>
+
+        <!-- title bar -->
+        <path d="M480,40 a20,20 0 0 1 20,-20 h640 a20,20 0 0 1 20,20 v26 h-680 z" fill="var(--border)" opacity="0.35"/>
+        <circle cx="507" cy="43" r="6" fill="#FF5F56"/>
+        <circle cx="527" cy="43" r="6" fill="#FFBD2E"/>
+        <circle cx="547" cy="43" r="6" fill="#27C93F"/>
+        <text x="820" y="47" text-anchor="middle" font-size="12" fill="var(--text-dim)">vijay@digital-alchemist:~$</text>
+        <line x1="480" y1="66" x2="1160" y2="66" stroke="var(--border)" stroke-width="1"/>
+
+        <!-- greeting -->
+        <text x="515" y="112" font-size="26" font-weight="700" fill="var(--text)">Hi, I'm <tspan fill="url(#nameGrad)">Vijay Rama Raju</tspan></text>
+
+        <!-- typing line -->
+        <text x="515" y="150" font-size="20" fill="var(--accent3)">&gt;</text>
+        <g font-size="20" fill="var(--text)">
+          <g clip-path="url(#typeClip1)"><text x="545" y="150">Digital Alchemist_</text></g>
+          <g clip-path="url(#typeClip2)"><text x="545" y="150">Full-Stack Developer_</text></g>
+          <g clip-path="url(#typeClip3)"><text x="545" y="150">AI &amp; Quantum Enthusiast_</text></g>
+          <g clip-path="url(#typeClip4)"><text x="545" y="150">Open Source Contributor_</text></g>
+        </g>
+
+        <line x1="515" y1="175" x2="1145" y2="175" stroke="var(--border)" stroke-width="1"/>
+
+        <!-- details -->
+        <g font-size="14">
+          <text x="515" y="205" fill="url(#nameGrad)">&#9657;</text>
+          <text x="535" y="205" fill="var(--text-dim)">Location:</text>
+          <text x="625" y="205" fill="var(--text)">Nuzividu, Andhra Pradesh, India</text>
+
+          <text x="515" y="234" fill="url(#nameGrad)">&#9657;</text>
+          <text x="535" y="234" fill="var(--text-dim)">Education:</text>
+          <text x="625" y="234" fill="var(--text)">B.Tech</text>
+
+          <text x="515" y="263" fill="url(#nameGrad)">&#9657;</text>
+          <text x="535" y="263" fill="var(--text-dim)">Focus:</text>
+          <text x="625" y="263" fill="var(--text)">Agentic Systems &amp; Quantum Algorithms</text>
+
+          <text x="515" y="292" fill="url(#nameGrad)">&#9657;</text>
+          <text x="535" y="292" fill="var(--text-dim)">Portfolio:</text>
+          <text x="625" y="292" fill="var(--accent2)" style="text-decoration:underline">glimpse-of-my-world.netlify.app</text>
+        </g>
+
+        <line x1="515" y1="318" x2="1145" y2="318" stroke="var(--border)" stroke-width="1"/>
+
+        <text x="515" y="345" font-size="13" style="letter-spacing:2px" fill="var(--text-dim)">TECH ARSENAL</text>
+
+        <!-- pills row 1 -->
+        <g font-size="14" font-weight="600">
+          <rect x="515" y="360" width="90" height="34" rx="17" fill="var(--panel)" stroke="url(#pillGrad)" stroke-width="1.3" filter="url(#glow)"/>
+          <text x="560" y="382" text-anchor="middle" fill="var(--text)">Python</text>
+
+          <rect x="617" y="360" width="85" height="34" rx="17" fill="var(--panel)" stroke="url(#pillGrad)" stroke-width="1.3" filter="url(#glow)"/>
+          <text x="659" y="382" text-anchor="middle" fill="var(--text)">React</text>
+
+          <rect x="714" y="360" width="100" height="34" rx="17" fill="var(--panel)" stroke="url(#pillGrad)" stroke-width="1.3" filter="url(#glow)"/>
+          <text x="764" y="382" text-anchor="middle" fill="var(--text)">MongoDB</text>
+
+          <rect x="826" y="360" width="110" height="34" rx="17" fill="var(--panel)" stroke="url(#pillGrad)" stroke-width="1.3" filter="url(#glow)"/>
+          <text x="881" y="382" text-anchor="middle" fill="var(--text)">Three.js</text>
+        </g>
+
+        <!-- pills row 2 -->
+        <g font-size="14" font-weight="600">
+          <rect x="515" y="406" width="90" height="34" rx="17" fill="var(--panel)" stroke="url(#pillGrad)" stroke-width="1.3" filter="url(#glow)"/>
+          <text x="560" y="428" text-anchor="middle" fill="var(--text)">Qiskit</text>
+
+          <rect x="617" y="406" width="90" height="34" rx="17" fill="var(--panel)" stroke="url(#pillGrad)" stroke-width="1.3" filter="url(#glow)"/>
+          <text x="662" y="428" text-anchor="middle" fill="var(--text)">Docker</text>
+
+          <rect x="719" y="406" width="75" height="34" rx="17" fill="var(--panel)" stroke="url(#pillGrad)" stroke-width="1.3" filter="url(#glow)"/>
+          <text x="756" y="428" text-anchor="middle" fill="var(--text)">AWS</text>
+        </g>
+
+        <line x1="515" y1="468" x2="1145" y2="468" stroke="var(--border)" stroke-width="1"/>
+        <text x="515" y="495" font-size="12.5" fill="var(--text-dim)" font-style="italic">Building the future, one commit at a time.</text>
+
+        <!-- footer status -->
+        <circle cx="522" cy="530" r="5" fill="var(--accent3)">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+        </circle>
+        <text x="535" y="534" font-size="12" fill="var(--text-dim)">Available for opportunities in Agentic AI &amp; Quantum Computing</text>
+      </g>
+    </svg>
   </a>
 </p>
 <p align="center">
@@ -107,12 +328,3 @@
 <p align="center">
   <b>“Keep learning, keep building!”</b> 🚀
 </p>
-
-
-
-
-
-
-
-
-
