@@ -202,12 +202,6 @@
     <g font-size="14" font-weight="600">
       <rect x="515" y="406" width="90" height="34" rx="17" fill="var(--panel)" stroke="url(#pillGrad)" stroke-width="1.3" filter="url(#glow)"/>
       <text x="560" y="428" text-anchor="middle" fill="var(--text)">Qiskit</text>
-
-      <rect x="617" y="406" width="90" height="34" rx="17" fill="var(--panel)" stroke="url(#pillGrad)" stroke-width="1.3" filter="url(#glow)"/>
-      <text x="662" y="428" text-anchor="middle" fill="var(--text)">Docker</text>
-
-      <rect x="719" y="406" width="75" height="34" rx="17" fill="var(--panel)" stroke="url(#pillGrad)" stroke-width="1.3" filter="url(#glow)"/>
-      <text x="756" y="428" text-anchor="middle" fill="var(--text)">AWS</text>
     </g>
 
     <line x1="515" y1="468" x2="1145" y2="468" stroke="var(--border)" stroke-width="1"/>
